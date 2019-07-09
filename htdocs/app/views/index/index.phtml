@@ -1,0 +1,39 @@
+<h2>Add Catalog Entry</h2>
+
+<?php echo $this->tag->form("/public/index/add"); ?>
+
+    <p>
+        <label for="catalogid">CatalogId</label>
+        <?php echo $this->tag->textField("catalogid"); ?>
+    </p>
+
+    <p>
+        <label for="journal">Journal</label>
+        <?php echo $this->tag->textField("journal"); ?>
+    </p>
+
+<p>
+        <label for="publisher">Publisher</label>
+        <?php echo $this->tag->textField("publisher"); ?>
+    </p>
+
+    <p>
+        <label for="edition">Edition</label>
+        <?php echo $this->tag->textField("edition"); ?>
+    </p>
+
+<p>
+        <label for="title">Title</label>
+        <?php echo $this->tag->textField("title"); ?>
+    </p>
+
+    <p>
+        <label for="author">Author</label>
+        <?php echo $this->tag->textField("author"); ?>
+    </p>
+
+    <p>
+        <?php echo $this->tag->submitButton("Add"); ?>
+    </p>
+
+</form>
